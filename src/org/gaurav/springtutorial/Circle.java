@@ -1,7 +1,9 @@
 package org.gaurav.springtutorial;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component
 public class Circle implements Shape {
 	private Point center;
 
